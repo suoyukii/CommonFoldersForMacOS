@@ -30,7 +30,7 @@ CommonFoldersForMacOS is a lightweight program that quickly opens common MacOS f
 
 # Install
 
-AvaloniaColorNames requires **.Net 8.0** to run successfully.
+CommonFoldersForMacOS requires **.Net 8.0** to run successfully.
 
 - [Dowload .Net 8.0](https://dotnet.microsoft.com/zh-cn/download/dotnet/latest/runtime)
 - [Dowload CommonFoldersForMacOS](https://github.com/suoyukii/CommonFoldersForMacOS/releases)
