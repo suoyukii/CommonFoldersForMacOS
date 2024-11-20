@@ -1,4 +1,4 @@
-<h1 align="center">CommonFoldersForMacOS</h1>
+<h1 align="center">Common Folders For MacOS</h1>
 <h4 align="center">Quickly opens common MacOS folders</h4>
 
 <p align="center">

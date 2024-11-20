@@ -1,4 +1,4 @@
-<h1 align="center">CommonFoldersForMacOS</h1>
+<h1 align="center">Common Folders For MacOS</h1>
 <h4 align="center">快速打开 MacOS 的常用文件夹</h4>
 
 <p align="center">
