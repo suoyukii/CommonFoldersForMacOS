@@ -3,19 +3,15 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
-        x:Class="CommonFoldersForMacOS.MainWindow"
-        Title="CommonFoldersForMacOS">
+        x:Class="CommonFoldersForMacOS.MainWindow">
     <Grid Name="list" ColumnDefinitions="*,*,*,*" RowDefinitions="*,*">
-        <Button Grid.Row="0" Grid.Column="0" Tapped="OpenFolder" Background="Crimson" Content="Home" Tag="" />
-        <Button Grid.Row="0" Grid.Column="1" Tapped="OpenFolder" Background="Orange" Content="Pictures" Tag="/Pictures" />
-        <Button Grid.Row="0" Grid.Column="2" Tapped="OpenFolder" Background="Gold" Content="Documents" Tag="/Documents" />
-        <Button Grid.Row="0" Grid.Column="3" Tapped="OpenFolder" Background="YellowGreen" Content="Downloads"
-                Tag="/Downloads" />
-        <Button Grid.Row="1" Grid.Column="0" Tapped="OpenFolder" Background="Turquoise" Content="Music" Tag="/Music" />
-        <Button Grid.Row="1" Grid.Column="1" Tapped="OpenFolder" Background="DodgerBlue" Content="Movies" Tag="/Movies" />
-        <Button Grid.Row="1" Grid.Column="2" Tapped="OpenFolder" Background="RoyalBlue" Content="Desktop"
-                Tag="/Desktop" />
-        <Button Grid.Row="1" Grid.Column="3" Tapped="OpenFolder" Background="BlueViolet" Content="Applications"
-                Tag="/Applications" />
+        <Button Grid.Row="0" Grid.Column="0" Name="home" Tapped="OpenFolder" Background="Crimson" Tag="" />
+        <Button Grid.Row="0" Grid.Column="1" Name="pic" Tapped="OpenFolder" Background="Orange" Tag="/Pictures" />
+        <Button Grid.Row="0" Grid.Column="2" Name="doc" Tapped="OpenFolder" Background="Gold" Tag="/Documents" />
+        <Button Grid.Row="0" Grid.Column="3" Name="dl" Tapped="OpenFolder" Background="YellowGreen" Tag="/Downloads" />
+        <Button Grid.Row="1" Grid.Column="0" Name="music" Tapped="OpenFolder" Background="Turquoise" Tag="/Music" />
+        <Button Grid.Row="1" Grid.Column="1" Name="movie" Tapped="OpenFolder" Background="DodgerBlue" Tag="/Movies" />
+        <Button Grid.Row="1" Grid.Column="2" Name="desktop" Tapped="OpenFolder" Background="RoyalBlue" Tag="/Desktop" />
+        <Button Grid.Row="1" Grid.Column="3" Name="app" Tapped="OpenFolder" Background="BlueViolet" Tag="/Applications" />
     </Grid>
 </Window>
